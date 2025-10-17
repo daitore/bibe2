@@ -1,16 +1,29 @@
-# 仮想環境
-.venv/
+# データベースファイル
+meal_balance.db
 
 # Pythonキャッシュ
 __pycache__/
-*.pyc
+*.py[cod]
+*$py.class
+*.so
+.Python
 
-# SQLiteデータベース
-*.db
+# 仮想環境
+venv/
+env/
+ENV/
+.venv
 
-# ログファイル
-*.log
+# IDEファイル
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
 
-# OSやエディタの一時ファイル
+# Streamlitキャッシュ
+.streamlit/
+
+# OS固有ファイル
 .DS_Store
 Thumbs.db
